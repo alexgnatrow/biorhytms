@@ -1,0 +1,27 @@
+{
+  "name": "biorhytms",
+  "version": "0.0.1",
+  "main": "src/app.js",
+  "scripts": {
+    "dev": "nodemon src/app.js dev",
+    "start": "nodemon src/app.js",
+    "size": "du -ch --exclude=./node_modules* --exclude=./.git*"
+  },
+  "dependencies": {
+    "babel-eslint": "^10.0.1",
+    "chalk": "^2.4.2",
+    "cors": "^2.8.5",
+    "ejs": "^2.6.1",
+    "eslint": "^5.12.1",
+    "eslint-plugin-es6": "^1.0.0",
+    "eslint-plugin-node": "^8.0.1",
+    "express": "^4.13.3",
+    "express-session": "^1.15.6",
+    "nconf": "^0.10.0",
+    "nodemon": "^1.18.9",
+    "request": "^2.88.0"
+  },
+  "devDependencies": {},
+  "author": "alexgnatrow",
+  "license": "MIT"
+}
