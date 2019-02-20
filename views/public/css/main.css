@@ -1,0 +1,25 @@
+/* 		<-------		VARIABLES			------>		  */
+
+:root {
+  --physical: #12b347;
+  --emotional: #f32c2c;
+  --intellectual: #4477e6;
+}
+
+/* 			<-------  	SHARED    	------>		   */
+
+* {
+  text-align: center;
+  font-family: Roboto, sans-serif;
+  transition: 0.1s;
+}
+body {
+  margin: 0;
+  padding-top: 3em;
+  overflow: hidden;
+  min-height: 100vh;
+}
+h1 {
+  margin-bottom: 0;
+  color: var(--blue);
+}
